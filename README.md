@@ -37,6 +37,7 @@ Once the G-Code is generated, it is essential to ensure that the CNC engraving b
 ## EXPECTED OUTPUT:
 ### Copper CAM
 ### Engraving G Code
+```
 %
 ( CopperCAM - 07/03/2025 / ISO-Mill Output )
 ( C:\COPPERCAM\CopperCAM.iso created 13/03/2025 at 16:07 )
@@ -2158,9 +2159,10 @@ G00 Z2
 M05
 M02
 %
-
+```
 
 ### Drill G Code
+```
 
 %
 ( CopperCAM - 07/03/2025 / ISO-Mill Output )
@@ -2324,11 +2326,11 @@ G00 Z2
 M05
 M02
 %
-
+```
 
 
 ### Cut G Code
-
+```
 %
 ( CopperCAM - 07/03/2025 / ISO-Mill Output )
 ( C:\COPPERCAM\CopperCAM.iso created 13/03/2025 at 16:08 )
@@ -2349,9 +2351,10 @@ G00 Z2
 M05
 M02
 %
-
+```
 
 ## Auto leveller
+```
 M6Tx
 G54
 G0 X0 Y0
@@ -4470,9 +4473,10 @@ G00 X00 Y00
 M05
 M02
 %
-
+```
 
 ### Engraving G Code
+```
 M6Tx
 G54
 G0 X0 Y0
@@ -6591,9 +6595,10 @@ G00 X00 Y00
 M05
 M02
 %
-
+```
 
 ### Drill G code
+```
 M6Tx
 G54
 G0 X0 Y0
@@ -6753,9 +6758,10 @@ G00 X00 Y00
 M05
 M02
 %
-
+```
 
 ### Cut G Code 
+```
 M6Tx
 G54
 G0 X0 Y0
@@ -6773,7 +6779,7 @@ G00 X00 Y00
 M05
 M02
 %
-
+```
 
 ## RESULT:
 Thus, the Gerber files of the automatic street light control circuit were successfully converted into CNC G-Code and G-Code into Auto leveller Code for accurate and high-quality PCB engraving, drilling, and cutting using the CNC machine.
